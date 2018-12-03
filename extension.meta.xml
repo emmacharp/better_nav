@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<extension id="better_nav" status="released" xmlns="http://symphony-cms.com/schemas/extension/1.0">
+	<name>Better Nav</name>
+	<description>Tweaks to the default UI for Symphony's navigation</description>
+	<types>
+		<type>Navigation</type>
+	</types>
+	<authors>
+		<author>
+			<name github="fhamon" symphony="fhamon" twitter="FrederickHamon">Frédérick Hamon</name>
+		</author>
+		<author>
+			<name github="DeuxHuitHuit" symphony="nitriques" twitter="DeuxHuitHuit">Deux Huit Huit</name>
+			<website>https://deuxhuithuit.com/</website>
+		</author>
+	</authors>
+	<releases>
+		<release version="1.0.0" date="2010-08-17" min="4.0.0"/>
+	</releases>
+</extension>

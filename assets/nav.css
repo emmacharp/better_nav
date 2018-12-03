@@ -1,0 +1,22 @@
+nav#nav .content > .link {
+	padding-top: 1rem;
+	font-size: 1.4rem;
+	font-weight: 300;
+	line-height: 2rem;
+}
+
+nav#nav .content > .link.active a {
+	color: #2f77eb;
+}
+
+nav#nav .content > .link a {
+	color: #657685;
+}
+
+nav#nav .content > .link a:hover {
+	color: #2f77eb;
+}
+
+nav#nav .content > .link + li {
+	padding-top: 1rem;
+}
