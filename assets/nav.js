@@ -1,10 +1,6 @@
 (function ($, Symphony) {
 
 	'use strict';
-	
-	var sels = {
-		content: 'ul.content'
-	};
 
 	var removeSubnav = function (element) {
 		var parent = element.closest('li');
@@ -25,7 +21,7 @@
 	};
 
 	var init = function () {
-		var nav = window.Symphony.Elements.nav.find(sels.content);
+		var nav = window.Symphony.Elements.nav.find('ul.content');
 		
 		findSoloLinks(nav.find('ul')).each(function () {
 			removeSubnav($(this));
