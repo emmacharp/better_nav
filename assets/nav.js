@@ -6,7 +6,7 @@
 		var parent = element.closest('li');
 		var link = element.find('a').clone();
 		var isActive = parent.hasClass('active');
-		var newNode = $('<div/>').append(link).addClass('link');
+		var newNode = $('<li/>').append(link).addClass('link');
 		if (!!isActive) {
 			newNode.addClass('active');
 		}

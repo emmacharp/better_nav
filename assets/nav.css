@@ -1,22 +1,11 @@
-nav#nav .content > .link {
-	padding-top: 1rem;
-	font-size: 1.4rem;
-	font-weight: 300;
-	line-height: 2rem;
+#nav a {
+	color: var(--color-main-light);
 }
 
-nav#nav .content > .link.active a {
-	color: #2f77eb;
+#nav .link.active a {
+	color: var(--color-accent);
 }
-
-nav#nav .content > .link a {
-	color: #657685;
-}
-
-nav#nav .content > .link a:hover {
-	color: #2f77eb;
-}
-
-nav#nav .content > .link + li {
-	padding-top: 1rem;
+ 
+#nav .link.active a svg {
+	color: var(--color-accent);
 }
