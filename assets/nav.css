@@ -1,11 +1,11 @@
-#nav a {
+[id="nav"] span {
 	color: var(--color-main-light);
 }
 
-#nav .link.active a {
+[id="nav"] .link.active a {
 	color: var(--color-accent);
 }
  
-#nav .link.active a svg {
+[id="nav"] .link.active a svg {
 	color: var(--color-accent);
 }
